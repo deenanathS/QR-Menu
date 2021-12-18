@@ -2272,7 +2272,7 @@
 		"main": {
 			"title"						: "Website title",
 			"default_language"			: "Default language",
-			"default_language_help"		: "To add more languages, please consult the documentation.",
+			"default_language_help"		: "To add more languages, please consult.",
 			"logo"						: "Logo",
 			"logo_help"					: "jpg, jpeg, png and svg accepted. Recommended size: Max height of 40px and transparent.",
 			"logo_remove"				: "Remove logo",

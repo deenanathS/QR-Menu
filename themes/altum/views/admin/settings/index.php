@@ -629,7 +629,7 @@
             </div>
         </div>
 
-        <p class="text-muted my-3"><?= $this->language->admin_settings->documentation ?></p>
+       
     </div>
 </div>
 

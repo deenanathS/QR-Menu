@@ -34,7 +34,7 @@ KEY `api_key` (`api_key`)
 -- SEPARATOR --
 
 INSERT INTO `users` (`user_id`, `email`, `password`, `api_key`, `name`, `token_code`, `email_activation_code`, `lost_password_code`, `facebook_id`, `type`, `active`, `plan_id`, `plan_expiration_date`, `plan_settings`, `plan_trial_done`, `payment_subscription_id`, `language`, `timezone`, `date`, `ip`, `last_activity`, `last_user_agent`, `total_logins`)
-VALUES (1, 'admin', '$2y$10$uFNO0pQKEHSFcus1zSFlveiPCB3EvG9ZlES7XKgJFTAl5JbRGFCWy', md5(rand()), 'AltumCode', '', '', '', NULL, 1, 1, 'custom', '2030-01-11 13:23:42', '{"stores_limit":5,"menus_limit":50,"categories_limit":50,"items_limit":50,"no_ads":true,"ordering_is_enabled":true,"analytics_is_enabled":true,"removable_branding_is_enabled":true,"custom_url_is_enabled":true,"password_protection_is_enabled":true,"search_engine_block_is_enabled":true,"custom_css_is_enabled":true,"custom_js_is_enabled":true,"email_reports_is_enabled":true}', 0, '', 'english', 'UTC', '2020-01-20 12:20:20', '', '2020-01-20 12:20:20', '', 0);
+VALUES (1, 'admin', '$2y$10$uFNO0pQKEHSFcus1zSFlveiPCB3EvG9ZlES7XKgJFTAl5JbRGFCWy', md5(rand()), 'Demo', '', '', '', NULL, 1, 1, 'custom', '2030-01-11 13:23:42', '{"stores_limit":5,"menus_limit":50,"categories_limit":50,"items_limit":50,"no_ads":true,"ordering_is_enabled":true,"analytics_is_enabled":true,"removable_branding_is_enabled":true,"custom_url_is_enabled":true,"password_protection_is_enabled":true,"search_engine_block_is_enabled":true,"custom_css_is_enabled":true,"custom_js_is_enabled":true,"email_reports_is_enabled":true}', 0, '', 'english', 'UTC', '2020-01-20 12:20:20', '', '2020-01-20 12:20:20', '', 0);
 
 -- SEPARATOR --
 
@@ -127,7 +127,7 @@ VALUES
 ('email_notifications', '{\"emails\":\"\",\"new_user\":\"\",\"new_payment\":\"\"}'),
 ('facebook', '{\"is_enabled\":\"0\",\"app_id\":\"\",\"app_secret\":\"\"}'),
 ('favicon', ''),
-('logo', ''),
+('logo', '4fee4cf335f55608a20b34526c7e6ede.png'),
 ('plan_custom', '{\"plan_id\":\"custom\",\"name\":\"Custom\",\"status\":1}'),
 ('plan_free', '{\"plan_id\":\"free\",\"name\":\"Free\",\"days\":null,\"status\":1,\"settings\":{\"stores_limit\":1,\"menus_limit\":5,"categories_limit":50,"items_limit":50,\"no_ads\":true,\"analytics_is_enabled\":true,\"ordering_is_enabled\":true,\"removable_branding_is_enabled\":false,\"custom_url_is_enabled\":true,\"password_protection_is_enabled\":true,\"search_engine_block_is_enabled\":false,\"custom_css_is_enabled\":false,\"custom_js_is_enabled\":false,\"email_reports_is_enabled\":false}}'),
 ('plan_trial', '{\"plan_id\":\"trial\",\"name\":\"Trial\",\"days\":7,\"status\":0,\"settings\":{\"stores_limit\":10,\"menus_limit\":50,"categories_limit":50,"items_limit":50,\"no_ads\":true,\"analytics_is_enabled\":true,\"ordering_is_enabled\":true,\"removable_branding_is_enabled\":true,\"custom_url_is_enabled\":true,\"password_protection_is_enabled\":true,\"search_engine_block_is_enabled\":true,\"custom_css_is_enabled\":false,\"custom_js_is_enabled\":false}}'),
@@ -139,7 +139,7 @@ VALUES
 ('custom', '{\"head_js\":\"\",\"head_css\":\"\"}'),
 ('socials', '{\"facebook\":\"\",\"instagram\":\"\",\"twitter\":\"\",\"youtube\":\"\"}'),
 ('default_timezone', 'UTC'),
-('title', 'EasyQR'),
+('title', 'QrEasy'),
 ('privacy_policy_url', ''),
 ('terms_and_conditions_url', ''),
 ('index_url', ''),

@@ -26,7 +26,7 @@ require_once ROOT . 'app/includes/product.php';
     <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    <title><?= PRODUCT_NAME ?> Installation</title>
+    <title>QrEasy Installation</title>
 </head>
 <body>
 
@@ -40,9 +40,7 @@ require_once ROOT . 'app/includes/product.php';
                 <div class="d-flex flex-column justify-content-center">
                     <h1>Installation</h1>
                     <p class="subheader d-flex flex-row">
-                        <span class="text-muted">
-                            <a href="<?= PRODUCT_URL ?>" target="_blank" class="text-gray-500"><?= PRODUCT_NAME ?></a> by <a href="https://altumco.de/site" target="_blank" class="text-gray-500">AltumCode</a>
-                        </span>
+                       
                     </p>
                 </div>
             </div>
@@ -85,9 +83,9 @@ require_once ROOT . 'app/includes/product.php';
 
                     <section id="welcome" style="display: none">
                         <h2>Welcome</h2>
-                        <p>The installation process should take less than <strong>5 minutes</strong> if you've done everything else from the documentation.</p>
+                        <p>The installation process should take less than <strong>5 minutes</strong> if you're right.</p>
 
-                        <p>Thank you for choosing to use the product.</p>
+                       
 
                         <a href="#requirements" id="welcome_start" class="navigator btn btn-primary">Start the installation</a>
                     </section>
@@ -339,7 +337,7 @@ require_once ROOT . 'app/includes/product.php';
                             </div>
 
                             <h3 class="mt-5">Database Details</h3>
-                            <p>Here are the connection details of the database that you want to use for this product.</p>
+                            <p>Here are the connection details of the database that you want to use for this.</p>
 
                             <div class="form-group row">
                                 <label for="database_host" class="col-sm-2 col-form-label">Host*</label>
@@ -379,23 +377,7 @@ require_once ROOT . 'app/includes/product.php';
                                 </div>
                             </div>
 
-                            <h3 class="mt-5">Get exclusive updates & discounts</h3>
-                            <p>Sign up for the exclusive mail list for verified customers only (optional).</p>
-                            <p>I'm going to send you stuff like: <strong>exclusive discounts</strong>, <strong>updates</strong> and <strong>new products</strong>.</p>
-
-                            <div class="form-group row">
-                                <label for="client_email" class="col-sm-2 col-form-label">Email</label>
-                                <div class="col-sm-10">
-                                    <input type="email" class="form-control" id="client_email" name="client_email" placeholder="Your valid email address">
-                                </div>
-                            </div>
-
-                            <div class="form-group row">
-                                <label for="client_name" class="col-sm-2 col-form-label">Name</label>
-                                <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="client_name" name="client_name" placeholder="Your name">
-                                </div>
-                            </div>
+                         
 
                             <button type="submit" name="submit" class="btn btn-primary mt-5">Finish Installation</button>
                         </form>

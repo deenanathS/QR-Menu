@@ -1,7 +1,5 @@
 package com.qa.pages;
 
-import static com.qa.driver.DriverManager.getDriver;
-
 import org.openqa.selenium.By;
 import com.qa.driver.DriverManager;
 import com.qa.enums.WaitStrategy;
@@ -24,8 +22,8 @@ public class BasePage {
 		return DriverManager.getDriver().getTitle() ;
 	}
 	
-	protected static String getElementText(By by) {
-		return getDriver().findElement(by).getText();
+	protected static String getElementText(By by, WaitStrategy waitStrategy) {
+		return ExplicitWaitFactory.performWaitStrategy(waitStrategy, by).getText();
 	}
 
 }

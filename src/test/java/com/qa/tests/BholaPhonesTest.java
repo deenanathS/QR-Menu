@@ -24,6 +24,9 @@ public class BholaPhonesTest extends BaseTest{
 		
 		//Validate correct username is displayed in the application
 		Assert.assertEquals(DashboardPage.getUserNameText(), PropertyUtils.get(ConfigProperties.USERNAME));
+		
+		DashboardPage.clickOnUserName();
+		DashboardPage.clickOnLogout();
 }	
 	
 	@Parameters({"browser2"})

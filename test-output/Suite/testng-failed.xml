@@ -4,12 +4,11 @@
   <test thread-count="5" name="Test(failed)" parallel="methods">
     <classes>
       <class name="com.qa.tests.BholaPhonesTest">
-        <parameter name="browser2" value="edge"/>
         <parameter name="browser1" value="chrome"/>
         <methods>
           <include name="setup"/>
-          <include name="signInNegative" invocation-numbers="0"/>
           <include name="teardown"/>
+          <include name="signInPositive" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.qa.tests.BholaPhonesTest -->
     </classes>
